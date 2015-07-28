@@ -11,12 +11,8 @@ namespace PlayPause
 {
     public static class Program
     {
-        private static string MediaPlayer = "iTunes";
-        private const int APPCOMMAND_VOLUME_MUTE = 0x80000;
-        private const int APPCOMMAND_VOLUME_UP = 0xA0000;
-        private const int APPCOMMAND_VOLUME_DOWN = 0x90000;
-        private const int WM_APPCOMMAND = 0x319;
-        private const int APPCOMMAND_MEDIA_PLAY_PAUSE = 0xE0000;
+        [DllImport("User32.dll")]
+        static extern int SetForegroundWindow(IntPtr point);
 
         static void Main()
         {
@@ -25,9 +21,20 @@ namespace PlayPause
 
         public static void SendToApp(string key)
         {
-            //Console.WriteLine(key);
-            var window = Window.GetActiveProcessFileName();
-            Console.WriteLine(window);
+            var mediaPlayer = GetMediaPlayer();
+            var activeWindow = Window.GetActiveProcess();
+
+            var mediaPlayerProcess = Process.GetProcessesByName(mediaPlayer).FirstOrDefault();
+            var mediaPlayerHandle = mediaPlayerProcess.MainWindowHandle;
+
+            SetForegroundWindow(mediaPlayerHandle);
+            SendKeys.Send(key);
+            SetForegroundWindow(activeWindow.MainWindowHandle);
+        }
+
+        public static string GetMediaPlayer()
+        {
+            return "iTunes";
         }
     }
 }

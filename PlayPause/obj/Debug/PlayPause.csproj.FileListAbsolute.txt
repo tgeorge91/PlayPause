@@ -4,3 +4,9 @@ C:\Users\Tim\Documents\GitHub\TestRepo\PlayPause\PlayPause\bin\Debug\PlayPause.e
 C:\Users\Tim\Documents\GitHub\TestRepo\PlayPause\PlayPause\bin\Debug\PlayPause.pdb
 C:\Users\Tim\Documents\GitHub\TestRepo\PlayPause\PlayPause\obj\Debug\PlayPause.exe
 C:\Users\Tim\Documents\GitHub\TestRepo\PlayPause\PlayPause\obj\Debug\PlayPause.pdb
+C:\Users\Tim\Documents\GitHub\PlayPause\PlayPause\bin\Debug\PlayPause.exe.config
+C:\Users\Tim\Documents\GitHub\PlayPause\PlayPause\obj\Debug\PlayPause.exe
+C:\Users\Tim\Documents\GitHub\PlayPause\PlayPause\obj\Debug\PlayPause.pdb
+C:\Users\Tim\Documents\GitHub\PlayPause\PlayPause\bin\Debug\PlayPause.exe
+C:\Users\Tim\Documents\GitHub\PlayPause\PlayPause\bin\Debug\PlayPause.pdb
+C:\Users\Tim\Documents\GitHub\PlayPause\PlayPause\obj\Debug\PlayPause.csprojResolveAssemblyReference.cache

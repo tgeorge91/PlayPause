@@ -14,7 +14,7 @@ using System.Runtime.InteropServices;
  *  http://blogs.msdn.com/b/toub/archive/2006/05/03/589423.aspx
  *  https://social.msdn.microsoft.com/Forums/en-US/1c47525d-5232-43ee-abda-0844330c6f3d/how-to-use-getforegroundwindow-to-get-newly-launched-application-windows-instance-in-c?forum=csharplanguage
  *  http://stackoverflow.com/questions/777548/how-do-i-determine-the-owner-of-a-process-in-c 
- * 
+ *  http://stackoverflow.com/questions/31663744/find-out-if-another-application-is-running-as-admin/ (my question)
  * 
  * 
  */
