@@ -9,3 +9,7 @@ So I decided to write a program to detect keystrokes and send them if needed.
 But then I realized this wasn't an issue in Spotify and I'm probably not going to keep Apple Music after the 3 months.
 
 If I keep Apple Music, I might come back to this, but until then: Spotify Premium FTW!
+
+
+
+Disclaimer: This doesn't work..... sorry! 
